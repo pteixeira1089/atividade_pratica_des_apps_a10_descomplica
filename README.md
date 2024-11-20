@@ -1,6 +1,6 @@
 # Atividade Prática da aula 10 da Disciplina 'Prática Integradora Desenvolvimento de Apps' - faculdade Descomplica - curso: Análise e Desenvolvimento de Sistemas
 
-##Instruções da atividade:
+## Instruções da atividade:
 1. Criação de um Repositório GitHub:
 
 • Acesse o GitHub e crie um novo repositório com o nome de sua escolha.
