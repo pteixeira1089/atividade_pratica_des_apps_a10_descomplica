@@ -25,9 +25,18 @@ header {
 /* Estilo para o título principal */
 h1 {
     color: #235D76;
-    font-size: 2.5em;
+    font-size: 2em;
     margin: 0;
 }
+
+/* Specific style for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+      font-size: 12px;
+      margin: 0;
+      padding: 0;
+    }
+  }
 
 /* Estilo para títulos menores */
 /* Estilo para títulos menores */
@@ -60,6 +69,12 @@ p {
     max-width: 100%; /* Garante que o h2 não ultrapasse a largura da tela */
     box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ensure the image doesn't exceed its parent's width */
+  }
 
 p.footer{
     opacity: 1;
